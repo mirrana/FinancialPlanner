@@ -1,0 +1,3 @@
+[submodule "lib/DataManager"]
+	path = lib/DataManager
+	url = https://sarah@gitlab.abopu.com/sarah/DataManager.git
