@@ -26,3 +26,6 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
+# Ignore custom property values
+gradle.properties
