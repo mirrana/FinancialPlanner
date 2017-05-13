@@ -25,48 +25,7 @@
  * DAMAGE.
  */
 
-buildscript {
-    repositories {
-        jcenter()
-        // enable this to use snapshot versions of Gretty:
-        // maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local' }
-    }
+package com.abopu.finance.common.auth;
 
-    dependencies {
-        classpath 'org.akhikhl.gretty:gretty:+'
-    }
+public class RequestContext {
 }
-
-apply plugin: 'java'
-apply plugin: 'war'
-apply plugin: 'org.akhikhl.gretty'
-
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-dependencies {
-    // Web
-
-
-    // Spring
-    compile 'org.springframework:spring-webmvc:4.2.+'
-
-    // Logging
-    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.+'
-    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.+'
-    runtime group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.+'
-
-    // Database
-    runtime group: 'org.postgresql', name: 'postgresql', version: '9.4.1209.jre7'
-
-    // Apache Commons
-    compile group: 'commons-io', name: 'commons-io', version: '2.4'
-    compile group: 'org.apache.commons', name: 'commons-csv', version: '1.1'
-}
-
-//configurations {
-//    all {
-//        // check for updates every build
-//        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
-//    }
-//}

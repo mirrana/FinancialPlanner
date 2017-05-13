@@ -1,7 +1,7 @@
 bin/
 
 # Locally Hosted Webapp Data Folder (for dev purposes only) #
-data/
+support/table_data/
 
 ### Eclipse ###
 .settings/
@@ -29,3 +29,5 @@ gradle-app.setting
 
 # Ignore custom property values
 gradle.properties
+
+!support/**/*

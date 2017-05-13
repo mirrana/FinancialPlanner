@@ -27,7 +27,12 @@
 
 rootProject.name = 'financialplanner'
 
+// *** Modules ***
 include 'DataManager'
 project(":DataManager").projectDir = file(dataManagerDir) // Define location in gradle.properties
 
 include 'web'
+project(":web").projectDir = file('modules/web')
+
+include 'common'
+project(":common").projectDir = file('modules/common')

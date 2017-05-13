@@ -25,18 +25,9 @@
  * DAMAGE.
  */
 
-subprojects {
-    apply plugin: 'java'
+package com.abopu.finance.common.beans;
 
-    repositories {
-        jcenter()
-    }
+import java.io.Serializable;
 
-    dependencies {
-        compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.+'
-        compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.+'
-        runtime group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.+'
-
-        testCompile 'junit:junit:4.12'
-    }
+public class Transaction implements Serializable {
 }
