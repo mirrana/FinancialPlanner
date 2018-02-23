@@ -27,5 +27,6 @@
 
 package com.abopu.finance.common.auth;
 
-public class RequestContext {
+interface RequestContext {
+	fun getUserId() : String { return "Guest"; }
 }

@@ -1,3 +1,12 @@
+CREATE SEQUENCE users_id_seq START WITH 1;
+CREATE TABLE users (
+  id   INT          NOT NULL DEFAULT nextval('users_id_seq'),
+  name VARCHAR(255) NOT NULL,
+  hashedPassword CHAR(60) NULL,
+  last_login TIMESTAMP NULL,
+  CONSTRAINT PK_users PRIMARY KEY (id)
+);
+
 CREATE SEQUENCE institutions_id_seq START WITH 1;
 CREATE TABLE institutions (
   id   INT          NOT NULL DEFAULT nextval('institutions_id_seq'),

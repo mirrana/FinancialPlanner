@@ -1,4 +1,5 @@
-1,,1,'00373-81-43935','Checking',1,165.79
-2,,1,'00373-83-79599','Misc Savings',2,0.00
-3,,1,'00012-37-40838','Line of Credit',5,-1928.47
-4,,3,'1234567890123456','Credit Card',7,0.0
+parent_id,institution_id,account_number,alias,type_id,balance
+nil,1,'00373-81-43935','Checking',1,165.79
+nil,1,'00373-83-79599','Misc Savings',2,0.00
+nil,1,'00012-37-40838','Line of Credit',5,-1928.47
+nil,3,'1234567890123456','Credit Card',7,0.0
