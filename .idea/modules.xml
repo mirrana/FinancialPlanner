@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataManager.iml" filepath="$PROJECT_DIR$/.idea/modules/DataManager.iml" group="DataManager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataManager_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DataManager_main.iml" group="DataManager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataManager_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DataManager_test.iml" group="DataManager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/common/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/financialplanner.iml" filepath="$PROJECT_DIR$/.idea/modules/financialplanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/web/web.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/web/web.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/web/web_main.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/web/web_test.iml" group="web" />
+    </modules>
+  </component>
+</project>
